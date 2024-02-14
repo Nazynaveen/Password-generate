@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.display{
+    /* display: flex; */
+    margin: 15%;
+    width: 90%;
+    max-width: 700px;
+
+}
+.body{
+    background-color: #00203F;
+}
+.input{
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+    border-radius: 0px;
+}
+#rp{
+    /* color: rgb(11, 65, 11); */
+    color: #ACEFD1;
+    text-decoration-line: underline;
+    text-decoration-color: #ACEFD1 ;
+}
+.display h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.display button{
+    background-color: #ACEFD1;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    font-size: 17px;
+    
+}
+.display button img{
+    align-items: center;
+    width: 20px;
+    margin-left: 7px;
+    margin-right: 8px;
+}
+#PassWord{
+   size: 100px;
+}
+.place::placeholder{
+    font-size: 25px;
+}
